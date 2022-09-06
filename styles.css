@@ -1,0 +1,43 @@
+table{
+    margin: 0px auto;
+    table-layout: fixed;
+    width: 90vw;
+    border-collapse: collapse;
+    border: solid black 3px;
+    text-align: center;
+   
+}
+thead th:nth-child(1){
+    width: 30%;
+}
+thead th:nth-child(2){
+    width: 20%;
+}
+thead th:nth-child(3){
+    width: 15%;
+}
+thead th:nth-child(4){
+    width: 35%;
+}
+thead{
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+th,td{
+    padding: 20px;
+    border: solid yellow 3px;
+}
+tfoot th{
+    text-align: right;
+}
+thead, tfoot {
+    background: url(qui-nguyen-sZrA_-JWDUc-unsplash.jpg);
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    background-position: center;
+  }
+  
+  thead th, tfoot th, tfoot td {
+    background: linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(0,0,0,0.5));
+    border: 3px solid purple;
+  }
